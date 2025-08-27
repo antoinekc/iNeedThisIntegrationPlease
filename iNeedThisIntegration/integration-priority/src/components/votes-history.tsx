@@ -393,7 +393,7 @@ export function VotesHistory() {
                   {vote.sales_person}
                 </td>
                 <td className="px-4 py-3 whitespace-nowrap">
-                  <Badge className={getClientTypeColor(vote.client_type)} size="sm">
+                  <Badge className={getClientTypeColor(vote.client_type)}>
                     {getClientTypeLabel(vote.client_type)}
                   </Badge>
                 </td>
